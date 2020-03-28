@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- Specify a JDBC datasource -->
+	<Resource 
+		name="jdbc/Login" 
+		type="javax.sql.DataSource"
+		maxActive="100" 
+		maxIdle="30" 
+		maxWait="1000"
+		url="jdbc:mysql://localhost:3306/firstDataBase"
+		driverClassName="com.mysql.jdbc.Driver"
+		username="ghiles" 
+		password="25139145"	
+	/>
+</Context>
